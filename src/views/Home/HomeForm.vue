@@ -11,7 +11,7 @@
             label-for="input-text"
             description="Format: YourProfile#1234"
           >
-            <b-form-input
+            <b-form-input  v-focus
               id="input-text"
               v-model="form.battleTag"
               type="text"
